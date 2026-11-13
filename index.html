@@ -1,0 +1,1326 @@
+<HTML>
+<head>
+  <head>
+  <title>Biwash</title>
+  <link rel="icon" href="telgraph/ico svg.png" sizes="32x32" sizes="16x16" type="image/x-icon">
+</head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge ">
+    <meta name="view-port" content="width=device-width, initial-scale=1.0">
+  <title>Biwash</title>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <!-- jQuery (jsDelivr CDN) -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+<!-- jQuery CDN from jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<!-- Include AOS library -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- jQuery (cdnjs CDN) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script 
+<script src="njxlhcj/bjchdka"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-animatescroll@1.0.0/animatescroll.min.js"></script>
+<!-- jQuery CDN from jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+
+
+  <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<!-- React and ReactDOM -->
+<script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="java.js"></script>
+<link rel="stylesheet" href="rem.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<header>
+  <div id="hen" class="segment">
+  <div class="implication">
+    <span class="par">&times;</span>
+    <h2>Welcome, Biwash!</h2>
+    <p>This modal appeared automatically. You can customize its timing, content, and behavior.</p>
+  </div>
+</div>
+</style>
+<script>
+
+</script>
+</head>
+<navbar>
+  <nav>
+  </nav>
+</navbar>
+       <div class="firstnav" id="secondNav">
+        <!DOCTYPE html>
+<html>
+<head>
+  <title>Toggle Mode</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .daqmode {
+      background-color: #630808;
+      color: rgb(177, 21, 21);
+    }
+  </style>
+</head>
+<body>
+<!----- <button onclick="mapofunction()">Compnentive
+  </button>   -->
+
+ <!---- <script>
+    function mapofunction() {
+      document.body.classList.toggle('daqmode');
+    }
+  </script> --> 
+  <style>
+
+    .ripple-button {
+      position: relative;
+      overflow: hidden;
+      padding: 15px 30px;
+      font-size: 18px;
+      color: white;
+      background-color: #630808;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      outline: none;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-left: auto;
+    }
+
+    .ripple-button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+
+    .ripple-button:active {
+      transform: scale(0.98);
+    }
+
+    .ripple {
+      position: absolute;
+      border-radius: 50%;
+      transform: scale(0);
+      animation: ripple-animation 600ms linear;
+      background-color: rgba(255, 255, 255, 0.6);
+    }
+
+    @keyframes ripple-animation {
+      to {
+        transform: scale(4);
+        opacity: 0;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .ripple-button {
+        font-size: 16px;
+        padding: 12px 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  
+
+  <script>
+    function mapofunction(e) {
+      const button = e.currentTarget;
+      const ripple = document.createElement("span");
+      const size = Math.max(button.clientWidth, button.clientHeight);
+      const rect = button.getBoundingClientRect();
+      ripple.style.width = ripple.style.height = `${size}px`;
+      ripple.style.left = `${e.clientX - rect.left - size / 2}px`;
+      ripple.style.top = `${e.clientY - rect.top - size / 2}px`;
+      ripple.classList.add("ripple");
+      button.appendChild(ripple);
+
+      setTimeout(() => {
+        ripple.remove();
+      }, 600);
+
+      document.body.classList.toggle('daqmode');
+    }
+  </script>
+
+</body>
+</html>
+
+
+
+</body>
+</html>
+
+            <a class="RWERWE" href="#">
+      <img src="telgraph/1.jpg" width="50" height="30" alt="">
+    </a>
+  <a href="#achievment" class="active">Achieved</a>
+  <a href="#nkaq">Archived</a>
+  <a href="#msai">Achieved</a>
+  <a href="#" class="active">Achieved</a>
+  <button class="ripple-button" onclick="mapofunction(event)">
+  <a href="#" style="cursor: pointer;"><dfn><mark>h-=-solid fa-co<i .;.v <i class="fa-solid fa-s"></i>
+  </button>
+  <a href="javascript:void(0);" class="thirdmap" onclick="mainFunction()">
+    <i class="fa fa-bars" style= "padding:14px 16px; color:rgba(47, 216, 174, 0.466)" >
+    </i>
+  </a>
+</div>
+
+<link rel="stylesheet" href=style.css>
+</head>
+<body>
+  <main class="mjk" id="mlk">
+    <section class="nhj">
+      <div class="mer">
+        <h1 class="chg">
+        <h3>BINEP COMPANY<a href="https://www.bing.com/maps?q=27.706912,85.306456
+" target="_blank"><i class="fa-solid fa-location-crosshairs"></i>LOCATION==>MAP</a></h3>
+        <h4>Company At Info Tech<<a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@binep.com&su=General%20Inquiry%20-%20BINEP%20Digital%20Agency&body=Respected%20Sir/Madam,%0D%0A%0D%0AThis%20is%20regarding%20..."><i class="fa-solid fa-users-rectangle"></i>Electronic Mail</a>
+</h4> 
+         Telegraph is Mechanized Hardware And Medium Based Transfering Of Audio Signals
+          Telegraph is Mechanized</p>
+          <a class="RWERWE" href="#">
+
+            <a href="files/dad.zip" download><button onclick="#" id="mky"><i class="fa fa-wifi" aria-hidden="true"></i>Download</button></a>
+           <a href="#" style="cursor: pointer;">Established:2000AD</a>
+   
+ 
+
+            
+  
+
+  
+      
+      
+      
+
+        </h1>
+        <button onclick="makeFunction()" id="topB">Known</button>
+      </div>
+    </section>
+  </main>
+</div>
+        </div>
+</body>
+           <h1 class="ytr" id="nkaq"><strong>Wire Cutter</strong><i class="fa fa-graduation-cap" aria-hidden="true"></i><p></p></i></h1>
+<div class="memo" id="container">
+  <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+<h1>Get Insights and Known</h1>
+<p>distorted text containing an excess of unusual and non-meaningful combining characters, with no other goal than to obscure it with a glitchy layout, making it difficult to reproduc<span id="pain"></span>
+<span id="paw">distorted text containing an excess of unusual and non-meaningful combining characters, with no other goal than to obscure it with a glitchy layout, making it difficult to reprodudistorted text containing an excess of unusual and non-meaningful combining characters, with no other goal than to obscure it with a glitchy layout, making it difficult to reprodu</span></p>
+<button onclick="makeFunction()" id="topB">Known</button>
+</div>
+<div class="memo" id="container">
+  <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+<h1>Get Insights and Known</h1>
+<p>distorted text containing an excess of unusual and non-meaningful combining characters, with no other goal than to obscure it with a glitchy layout, making it difficult to reproduc<span id="spain"></span>
+<span id="raw">distorted text containing an excess of unusual and non-meaningful combining characters, with no other goal than to obscure it with a glitchy layout, making it difficult to reprodudistorted text containing an excess of unusual and non-meaningful combining characters, with no other goal than to obscure it with a glitchy layout, making it difficult to reprodu</span></p>
+<button onclick="makiFunction()" id="topZ">Known</button>
+</div>
+<div class="memo" id="container">
+  <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+<h1>Get Insights and Known</h1>
+<p>distorted text containing an excess of unusual and non-meaningful combining characters, with no other goal than to obscure it with a glitchy layout, making it difficult to reproduc<span id="rpain"></span>
+<span id="kaw">distorted text containing an excess of unusual and non-meaningful combining characters, with no other goal than to obscure it with a glitchy layout, making it difficult to reprodudistorted text containing an excess of unusual and non-meaningful combining characters, with no other goal than to obscure it with a glitchy layout, making it difficult to reprodu</span></p>
+<button onclick="makioFunction()" id="top">Known</button>
+</div>
+</div>
+<div class="bhjad" id="bjk">
+  <p></p>
+</div>
+ <h1 class="ytr" id="nkaq"><strong>Wire Cutter</strong><i class="fa fa-graduation-cap" aria-hidden="true"></i><p></p></i></h1>
+<div class="vjbvk" id="bckjabj">
+  <div class="main-div">
+  <aside class="ad-sidebar">
+  <a href="#" target="_blank" class="ad-content">
+    <img src="telgraph/1.jpg" alt="Ad banner" />
+    <div class="ad-text">
+      <h5><figcaption>Insights On Our Advertiser</figcaption></h5>
+      <p>Save 30% on premium tools.</p>
+      <i class="fa fa-graduation-cap"
+   style="pointer-events: painted;"
+   aria-hidden="true"
+   onclick="handleAdClick()">
+</i>
+<script>
+  function handleAdClick() {
+  const userConfirmed = confirm("Do you want to visit the sponsor page?");
+  if (userConfirmed) {
+    // Optional twist: delay the redirect for smoother UX
+    setTimeout(() => {
+      window.location.href = "https://example.com";
+    }, 1000); // 1-second delay
+  } else {
+    alert("You Will Be Redirected To Our Company Web With New Tab Cookies Has Been Allowed and You are Welcome On Our New Tab with Low Traffic Enjoy BINEP Facilitation As This has Been Facilitated And Every User Must Pay The Money .");
+  }
+}
+</script>
+</div>
+    <!-- <i class="fa fa-graduation-cap" style="pointer-events: painted;" aria-hidden="true"  onclick="alert('verdana')"  ></i> -->
+    </div>
+  </a>
+</aside>
+
+    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+   <h3>BINEP COMPANY</h3> 
+        <h4>Company At Info Tech</p></h4> 
+         Telegraph is Mechanized Hardware And Medium Based Transfering Of Audio Signals
+          <h4>Company At Info Tech <a href="https://example.com" style="color: #3498db; text-decoration: none; font-weight: bold;">
+  Visit Example
+</a>
+</p></h4> 
+         Telegraph is Mechanized Hardware And Medium Based Transfering Of Audio Signals</p>
+           Telegraph is Mechanized Hardware And Medium Based Transfering Of Audio Signals</p>
+          <img src="telgraph/ico svg.png" style="width:281px;"> 
+
+        
+          
+
+
+
+
+
+
+
+         <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Member Table</title>
+  <style>
+    .table-wrapper {
+      overflow-x: auto;
+      max-width: 600px;
+      margin: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      background: #0eb4ac;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 0.75rem;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f0f0f0;
+      font-weight: 600;
+    }
+
+    tr:hover {
+      background-color: #f5f5f5;
+    }
+
+    @media (max-width: 500px) {
+      th, td {
+        padding: 0.5rem;
+        font-size: 0.85rem;
+      }
+    }
+
+    .assertion {
+      margin-top: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="table-wrapper">
+    <table id="memberTable">
+      <thead>
+        <tr>
+          <th>Aspectorial</th>
+          <th>Assertive</th>
+          <th>Arbritation</th>
+          <th>Prospect</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Aarav Shrestha</td>
+          <td>Kathmandu</td>
+          <td>TechNova</td>
+        </tr>
+        <tr>
+          <td>Maya Gurung</td>
+          <td>Biratnagar</td>
+          <td>CodeCraft</td>
+        </tr>
+        <tr>
+          <td>Ravi Thapa</td>
+          <td>Pokhara</td>
+          <td>PixelProspect</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="assertion" id="assertionText">
+    <!-- JS will inject assertion here -->
+  </div>
+
+  <script>
+    const table = document.getElementById('memberTable');
+    const assertion = document.getElementById('assertionText');
+
+    const rows = table.querySelectorAll('tbody tr');
+    const count = rows.length;
+
+    assertion.textContent = `Assertion: ${count} members listed upon company prospect at current view.`;
+  </script>
+
+</body>
+</html>
+
+          <div class="audio-player" id="mky"><button onclick="#" id="mkyw">
+            
+            <i class="fa fa-wifi" aria-hidden="true"></i>Conferencing</button><a id="audioDownload" href="telgraph/biwash_track.zip" download style="display: none;"></a>
+</a>
+ 
+  <h3>Strategic Implication Track </h3>
+  <audio id="customAudio" src="telgraph/3.mp3"></audio>
+  <div class="controls">
+    <button id="audioPlay"><i class="fa fa-graduation-cap" aria-hidden="true"></i></button>
+    <button id="audioPause"><i class="fa fa-eye" style="cursor: pointer;" aria-hidden="true"></i>
+    <input type="range" id="audioProgress" value="0">
+  </div>
+  <footer class="news-footer">
+  <div class="news-ticker">
+    <div class="ticker-content">
+      <span>🗞️ Breaking: New cyber law proposal gains traction in Asia.</span>
+      <span>🌐 Update: Bandcamp launches creator-first licensing toolkit.</span>
+      <span>🎧 Insight:With Holding onto Perplex Facilitation This Web Sited on Your Remote Accesive Portabilized Display Devices.Concisely Delivers Digitized Waveform Sound Synthenizer.Get Through at Your Extremity of Expedance For Stimulative View and Hearing Replenent.</span>
+    </div>
+  </div>
+</footer>
+</div>
+
+
+<style>
+.news-footer {
+  width: 100%;
+  background:none;
+  color: #fff;
+  padding: 10px 0;
+  position: relative;
+  text-align: center;
+  font-size: 0.9rem;
+  overflow: hidden;
+  direction: row;
+}
+
+.news-ticker {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.ticker-content {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scroll-left 20s linear infinite;
+}
+
+.ticker-content span {
+  margin-right: 50px;
+  display: inline-block;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 600px) {
+  .news-footer {
+    font-size: 0.75rem;
+  }
+  .ticker-content span {
+    margin-right: 30px;
+  }
+}
+</style>
+</div>
+</div>
+</div>
+</div>
+<!-- Sidebar or Section Container -->
+<div class="chat-container">
+  <!-- Chat Toggle Button -->
+  <div id="chat-toggle">💬Message From Chancellor</div>
+
+  <!-- Chat Popup Window -->
+  <div id="chat-popup">
+    <button id="close-chat" style="border-radius: 30px; border-color: red;"></button>
+    <div class="chat-header">
+      <span>BINEP Software Company</span>
+    </div>
+    <div class="chat-body">
+      <div class="chat-message bot"><img src="telgraph/ico svg.png"></div>
+      <h3>BINEP COMPANY</h3>
+        <h4>Company At Info Tech</h4> 
+        <h4>egraph is Mechanized Hardware And Medium Based Transfering Of Audio Signals</h4>
+          <p>egraph is Mechanized</p>
+          <h4>Company At Info Tech</h4> 
+        <p>legraph is Mechanized Hardware And Medium Based Transfering Of Audio Signals</p>
+    </div> 
+    <div class="chat-footer">
+      <input type="text" id="chat-input" placeholder="TAKE NOTE" ><i class=" fa fa-graduation-cap"></i></button>
+      <button id="send-chat">Send</button>
+      
+      </div>
+      </div>
+      </div>
+      
+<style>
+ .news-footer {
+  width: 100%;
+  background:none;
+  color: #fff;
+  padding: 10px 0;
+  position: relative;
+  text-align: center;
+  font-size: 0.9rem;
+  overflow: hidden;
+  direction: row;
+}
+
+.news-ticker {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.ticker-content {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scroll-left 20s linear infinite;
+}
+
+.ticker-content span {
+  margin-right: 50px;
+  display: inline-block;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 600px) {
+  .news-footer {
+    font-size: 0.75rem;
+  }
+  .ticker-content span {
+    margin-right: 30px;
+  }
+}
+</style>
+<script>
+const chatToggle = document.getElementById("chat-toggle");
+const chatPopup = document.getElementById("chat-popup");
+const closeChat = document.getElementById("close-chat");
+const sendChat = document.getElementById("send-chat");
+const chatInput = document.getElementById("chat-input");
+const chatBody = document.querySelector(".chat-body");
+
+chatToggle.addEventListener("click", () => {
+  chatPopup.style.display = "flex";
+});
+
+closeChat.addEventListener("click", () => {
+  chatPopup.style.display = "none";
+});
+
+sendChat.addEventListener("click", () => {
+  const message = chatInput.value.trim();
+  if (message) {
+    const userMsg = document.createElement("div");
+    userMsg.className = "chat-message";
+    userMsg.textContent = message;
+    chatBody.appendChild(userMsg);
+    chatInput.value = "";
+
+    // Simulated bot reply
+    setTimeout(() => {
+      const botMsg = document.createElement("div");
+      botMsg.className = "chat-message bot";
+      botMsg.textContent = "Thanks for your message!";
+      chatBody.appendChild(botMsg);
+      chatBody.scrollTop = chatBody.scrollHeight;
+    }, 1000);
+  }
+});
+</script>
+<div class="bhjad" id="bjk">
+  <p></p>
+</div>
+             </div>
+  </a>
+</aside>
+ <h1 class="ytr" id="nkaq"><strong>Wire Cutter</strong><i class="fa fa-graduation-cap" aria-hidden="true"></i><p></p></i></h1>
+    <div class="vjbvkaij" style="background-image: url(telgraph/ico\ svg.pn);" id="bckjabju">
+<h1 class="ytra" style="background-image:url(telgraph/ico\ svg.png);" id="nkaqa"><strong>Assertive Segmenting <i class="fa fa-graduation-cap" aria-hidden="true"></i> </strong>
+ <section class="counter-section">
+        <h1></h1>
+  <div class="counter-card">
+    <i class="fas fa-users"></i>
+    <span class="counter" data-target="1500">10</span>
+    <p><strong><b>Adherance</b></strong></p>
+  </div>
+  <div class="counter-card">
+    <i class="fas fa-users"></i>
+    <span class="counter" data-target="1500">12</span>
+    <p><strong><b>Modertor</b></strong></p>
+  </div>
+  <div class="counter-card">
+    <i class="fas fa-project-diagram"></i>
+    <span class="counter" data-target="320">8</span>
+    <p><strong><b>Implication</b></strong></p>
+  </div>
+  <div class="counter-card">
+    <i class="fas fa-award"></i>
+    <span class="counter" data-target="45">31</span>
+    <p><strong><b>Adherance</b></strong></p>
+  </div>
+  <div class="counter-card">
+    <i class="fas fa-globe"></i>
+    <span class="counter" data-target="25">9</span>
+    <p><strong><b>Contigency</b></strong></p>
+  </div>
+</section>
+
+ <footer class="news-footer1">
+  <div class="news-ticker2">
+    <div class="ticker-content3">
+      <span>🗞️ Breaking: New cyber law proposal gains traction in Asia.</span>
+      <span>🌐 Update: Bandcamp launches creator-first licensing toolkit.</span>
+      <span>🎧 Insight: With Holding onto Perplex Facilitation This Web Sited on Your Remote Accesive Portabilized Display Devices.Concisely Delivers Digitized Waveform Sound Synthenizer.Get Through at Your Extremity of Expedance For Stimulative View and Hearing Replenent.</span>
+    </div>
+  </div>
+</footer>
+</div>
+<style>
+  .news-footer1{
+     width: 100%;
+  background:none;
+  color:black;
+  box-sizing: border-box;
+  padding: 10px 0;
+  position: relative;
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 12px;
+  overflow: hidden;
+  direction: row;
+  animation: animate 20s linear infinite;
+  }
+</style>
+
+
+
+</p></h4> 
+<!----- 
+<div class="main">
+<section class="team-section">
+  <div class="team-slider">
+    <div class="team-card">
+      <img src="telgraph/ico svg.png" alt="Team Member">
+      <h3>Riya Sharma</h3>
+      <p class="role">Lead Designer</p>
+      <blockquote>"Design is intelligence made visible."</blockquote>
+    </div>
+  <div class="team-slider">
+    <div class="team-card">
+      <img src="telgraph/ico svg.png" alt="Team Member">
+      <h3>Riya Sharma</h3>
+      <p class="role">Lead Designer</p>
+      <blockquote>"Design is intelligence made visible."</blockquote>
+    </div>
+
+     
+  </div>
+  <div class="team-slider">
+    <div class="team-card">
+      <img src="telgraph/ico svg.png" alt="Team Member">
+      <h3>Riya Sharma</h3>
+      <p class="role">Lead Designer</p>
+      <blockquote>"Design is intelligence made visible."</blockquote>
+    </div>
+     <div class="team-slider">
+    <div class="team-card">
+      <img src="telgraph/ico svg.png" alt="Team Member">
+      <h3>Riya Sharma</h3>
+      <p class="role">Lead Designer</p>
+      <blockquote>"Design is intelligence made visible."</blockquote>
+    </div>
+  </div>
+  </div>
+</section>
+</div> -->
+<div class="main">
+  <h1 class="ytra" style="background-image:url(telgraph/ico\ svg.png);" id="nkaqa"><strong>Assertive Segmenting <i class="fa fa-graduation-cap" aria-hidden="true"></i> </strong>
+  <section class="team-section">
+    <div class="team-slider"> <!-- Use this as a grid container now -->
+      <div class="team-card">
+        <img src="telgraph/1.jpg" alt="Team Member">
+        <h3><strong>any name</strong></h3>
+        <p class="role"><b>Lead Designer</b></p>
+        <blockquote><b>"Design is intelligence made visible."</b></blockquote>
+        <div class="contact-info">
+  <a href="mailto:any@example.com" class="email"><strong><b>any@example.com</b></strong></a>
+  <div class="social-icons">
+    <a href="https://linkedin.com/in/any-name" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://twitter.com/any_name" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://github.com/any-name" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
+</div>
+
+      </div>
+      <div class="team-card">
+        <img src="telgraph/1.jpg" alt="Team Member">
+        <h3><strong>any name</strong></h3>
+        <p class="role"><b>Lead Designer</b></p>
+        <blockquote><b>"Design is intelligence made visible."</b></blockquote>
+        <div class="contact-info">
+  <a href="mailto:riya@example.com" class="email"><strong></b>any@example.com</b></strong></a>
+  <div class="social-icons">
+    <a href="https://linkedin.com/in/any-name" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://twitter.com/any_name" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://github.com/any-name" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
+</div>
+
+      </div>
+      <div class="team-card">
+        <img src="telgraph/1.jpg" alt="Team Member">
+        <h3><strong>any name</strong></h3>
+        <p class="role"><b>Backend Architect</b></p>
+        <blockquote><b>"Code is poetry when it solves problems."</b></blockquote>
+        <div class="contact-info">
+  <a href="mailto:riya@example.com" class="email"><strong></b>any@example.com</b></strong></a>
+  <div class="social-icons">
+    <a href="https://linkedin.com/in/any-name" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://twitter.com/any-name" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://github.com/any-name" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
+</div>
+
+      </div>
+       <div class="team-card">
+        <img src="telgraph/1.jpg" alt="Team Member">
+        <h3><strong>any name</strong></h3>
+        <p class="role"><b>Backend Architect</b></p>
+        <blockquote><b>"Code is poetry when it solves problems."</b></blockquote>
+        <div class="contact-info">
+  <a href="mailto:riya@example.com" class="email"><strong><b>any@example.com</b></strong></a>
+  <div class="social-icons">
+    <a href="https://linkedin.com/in/any-name" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://twitter.com/any-name" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://github.com/any-name" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
+</div>
+      </div>      
+
+      
+      <!-- Add more .team-card blocks here -->  
+    </div>
+  </section>
+</div>
+
+
+
+    <!-- Add more cards -->
+
+
+<style>
+.audio-player {
+  max-width: 300px;
+  margin:3rem 0rem 1rem;
+  background: #a81d6e;
+  color: red;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: red;
+  text-align: center;
+  align-items:left;
+}
+
+.audio-player h3 {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+  
+}
+
+.controls button {
+  background:aqua;
+  border-color:blanchedalmond;
+  padding: 0.6rem;
+  border-radius:40px;
+  color:burlywood;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  transition:background 0.3 s ease linear linear infinite;
+}
+
+.controls button:hover {
+  background:red;
+}
+
+#audioProgress {
+  flex: 1;
+  accent-color:aqua;
+}
+
+</style>
+<script>
+const audio = document.getElementById('customAudio');
+const playBtn = document.getElementById('audioPlay');
+const pauseBtn = document.getElementById('audioPause');
+const progress = document.getElementById('audioProgress');
+
+playBtn.onclick = () => audio.play();
+pauseBtn.onclick = () => audio.pause();
+
+audio.ontimeupdate = () => {
+  progress.value = (audio.currentTime / audio.duration) * 100;
+};
+
+progress.oninput = () => {
+  audio.currentTime = (progress.value / 100) * audio.duration;
+};
+
+const downloadBtn = document.getElementById('mkyw');
+const downloadLink = document.getElementById('audioDownload');
+
+downloadBtn.onclick = () => {
+  downloadLink.click(); // triggers the download
+};
+
+</script>
+<style>
+</style>
+<script>
+  // Show modal after delay
+window.onload = () => {
+  setTimeout(() => {
+    document.getElementById('hen').style.display = 'block';
+  }, 2000); // 2 seconds delay
+};
+
+// Close modal
+document.querySelector('.par').onclick = () => {
+  document.getElementById('hen').style.display = 'none';
+};
+
+// Optional: close when clicking outside
+window.onclick = (e) => {
+  const modal = document.getElementById('hen');
+  if (e.target === modal) {
+    modal.style.display = 'none';
+  }
+};
+</script>
+<!---  
+<div class="modality">
+  <div class="operabilty">
+    <div class="signals"><i class="fa fa-graduation-cap"></i></div>
+    <img src="telgraph/1.jpg" style="width: 100%;">
+    <div class="prompt">Telegraph1</div>
+  </div>
+</div>
+<div class="modality">
+  <div class="operabilty">
+    <div class="signals"><i class="fa fa-graduation-cap" style="width: 100%;"></i></div>
+    <img src="telgraph/1.jpg">
+    <div class="prompt">Telegraph1</div>
+  </div>
+</div>
+<div class="modality">
+  <div class="operabilty">
+    <div class="signals"><i class="fa fa-graduation-cap"></i></div>
+    <img src="telgraph/1.jpg" style="width: 100%;">
+    <div class="prompt">Telegraph1</div>
+  </div>
+</div>
+<div>
+  <span class="sort"></span>
+  <span class="sort"></span>
+  <span class="sort"></span>
+</div>
+--->
+<!-- Slideshow Items 
+<div class="modality">
+  <div class="operabilty">
+    <div class="signals"><i class="fa fa-graduation-cap"></i></div>
+    <img src="telgraph/1.jpg" alt="Telegraph1">
+    <div class="prompt">Telegraph1</div>
+  </div>
+</div>
+
+<div class="modality">
+  <div class="operabilty">
+    <div class="signals"><i class="fa fa-graduation-cap"></i></div>
+    <img src="telgraph/1.jpg" alt="Telegraph2">
+    <div class="prompt">Telegraph2</div>
+  </div>
+</div>
+
+<div class="modality">
+  <div class="operabilty">
+    <div class="signals"><i class="fa fa-graduation-cap"></i></div>
+    <img src="telgraph/1.jpg" alt="Telegraph3">
+    <div class="prompt">Telegraph3</div>
+  </div>
+</div>
+
+<div class="dot-container">
+  <span class="sort"></span>
+  <span class="sort"></span>
+  <span class="sort"></span>
+</div>
+-->
+ 
+  </main>
+<h1 class="ytra" style="background-image:url(telgraph/ico\ svg.png);" id="nkaqa"><strong>Assertive Segmenting <i class="fa fa-graduation-cap" aria-hidden="true"></i> </strong>
+<div class="main">
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Comrade Biwash Nepal</title>
+  <style>
+    #ComBN {
+      margin-bottom: 20px;
+    }
+
+    .Com {
+      border-radius: 14px;
+      border: 2px solid red;
+      padding: 10px 15px;
+      margin: 1rem  5px;
+      cursor: pointer;
+      background-color: white;
+      color: red;
+    }
+
+    .Com:hover,
+    .Com.active {
+      background-color: red;
+      color: white;
+    }
+
+    .meta {
+      display:flex;
+      padding: 4px 6px;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+      margin: 0rem 1rem 4rem;
+      border-radius: 14px;
+      flex-flow: right;
+      flex-direction:row-reverse;
+    }
+
+    .column {
+      display: none;
+      width: 250px;
+    }
+
+    .show {
+      display: inline-block;
+    }
+
+    .metaa {
+      background-image:url(telgraph/ico\ svg.png);
+      background-size: cover;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background-color: #fff;
+    }
+
+    .metaa img {
+      width: 100%;
+      border-radius: 4px;
+    }
+
+    .metaa h4 {
+      margin: 10px 0 5px;
+    }
+
+    .metaa p {
+      font-size: 14px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav id="ComBN">
+      <button class="Com active" onclick="filterSelection('all')">Show All</button>
+      <button class="Com" onclick="filterSelection('mountain')">Mountain</button>
+      <button class="Com" onclick="filterSelection('nepa')">Nepa</button>
+    </nav>
+  </header>
+
+  <section class="meta">
+    <div class="column mountain">
+      <div class="metaa">
+        <img src="telgraph/1ra.png" alt="Comr">
+        <h4>ChMountain</h4>
+        <p>C has Mountain not Knot Nepa</p>
+      </div>
+    </div>
+
+    <div class="column nepa">
+      <div class="metaa">
+        <img src="telgraph/1ra.png" alt="Comr">
+        <h4>NepaNode</h4>
+        <p>Random string: C has Mountain not Knot Nepa</p>
+      </div>
+    </div>
+
+    <div class="column mountain">
+      <div class="metaa">
+        <img src="telgraph/1ra.png" alt="Comr">
+        <h4>ChMountain</h4>
+        <p>Abstract filler: C has Mountain not Knot Nepa</p>
+      </div>
+    </div>
+
+    <div class="column mountain">
+      <div class="metaa">
+        <img src="telgraph/1ra.png" alt="Comr">
+        <h4>ChMountain</h4>
+        <p>Abstract filler: C has Mountain not Knot Nepa</p>
+      </div>
+    </div>
+  </section>
+  
+ <footer class="news-footer">
+  <div class="news-ticker">
+    <div class="ticker-content">
+      <span>🗞️ Breaking: New cyber law proposal gains traction in Asia.</span>
+      <span>🌐 Update: Bandcamp launches creator-first licensing toolkit.</span>
+      <span>🎧 Insight: With Holding onto Perplex Facilitation This Web Sited on Your Remote Accesive Portabilized Display Devices.Concisely Delivers Digitized Waveform Sound Synthenizer.Get Through at Your Extremity of Expedance For Stimulative View and Hearing Replenent.</span>
+    </div>
+  </div>
+</footer>
+</div>
+<style>
+   .news-footer {
+  width: 100%;
+  background:none;
+  color: #fff;
+  padding: 10px 0;
+  position: relative;
+  text-align: center;
+  font-size: 0.9rem;
+  overflow: hidden;
+  direction: row;
+}
+
+.news-ticker {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.ticker-content {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scroll-left 20s linear infinite;
+}
+
+.ticker-content span {
+  margin-right: 50px;
+  display: inline-block;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 600px) {
+  .news-footer {
+    font-size: 0.75rem;
+  }
+  .ticker-content span {
+    margin-right: 30px;
+  }
+}
+</style>
+  <script>
+    function filterSelection(category) {
+      const items = document.getElementsByClassName("column");
+      for (let i = 0; i < items.length; i++) {
+        if (category === "all" || items[i].classList.contains(category)) {
+          items[i].classList.add("show");
+        } else {
+          items[i].classList.remove("show");
+        }
+      }
+
+      const buttons = document.getElementsByClassName("Com");
+      for (let i = 0; i < buttons.length; i++) {
+        buttons[i].classList.remove("active");
+      }
+      event.target.classList.add("active");
+    }
+
+    // Initialize view
+    window.onload = function () {
+      filterSelection("all");
+    };
+  </script>
+
+</body>
+</html>
+
+<!----- ->
+<Comrade Biwash Nepal>
+<!DOCTYPE HTML>
+<HTML>
+<HEADER>
+<HEAD>
+<NAV>
+<div id="ComBN">
+<button class="Com" active onclick="filterSelection('all')">show all</button>
+<button class="Com" onclick="filterSelection('all')">show all</button>
+<button class="Com" onclick="filterSelection('all')">show all</button>
+</div>
+<div class="meta">
+<div class="metait">
+<div class="metaa">
+<-inline Style--
+<img src="telegraph/1.png alt="Comr" style="width:100%">
+<h4>ChMountain</h4>
+<p>C has Mountain not Knot Nepa</p>[this is to implication of Mountain at Ch]
+</div>
+
+
+<div class="meta">
+<div class="metait">
+<div class="metaa">
+<-inline Style--
+<img src="telegraph/1.png alt="Comr" style="width:100%">
+<h4>ChMountain</h4>
+<p>C has Mountain not Knot Nepa</p>[this is to implication of Mountain at Ch]
+</div>
+</div>
+
+
+<div class="meta">
+<div class="metait">
+<div class="metaa">
+<-inline Style-- 
+<img src="telegraph/1.png alt="Comr" style="width:100%">
+<h4>ChMountain</h4>
+<p>C has Mountain not Knot Nepa</p>[this is to implication of Mountain at Ch]
+</div>
+</div>
+
+
+<div class="meta">
+<div class="metait">
+<div class="metaa">
+-inline Style--
+<img src="telegraph/1.png alt="Comr" style="width:100%">
+<h4>ChMountain</h4>
+<p>C has Mountain not Knot Nepa</p>[this is to implication of Mountain at Ch]
+</div>
+</div>
+<script>
+filterSelction("all")
+function filterSelection(c){
+var init = x, iq;
+x= document.getElementByClassName("column");  //i is at increment//
+if(c== "all:) c=="";
+(for i= 0; i < x.length; i++){  //i is at increment//
+crclass(x[i],"show");
+if(x[i].crclass.indexofa(c) > -1) crcclass(x[i],"show;  //i is at increment//
+}
+}
+    function crcclass(elena,naaq){
+var p , po , rc ;
+po = element.crclass.split("");
+rc = naaq.split("");
+for(i=0; i< rc.length; i++){
+if(po.indexofac(rc[i] == -1){naaq.crclass+ ="" +rc[i];}
+}
+}
+function crclass(elena , naaq){
+var p , po , rc ;
+po = element.crclass.split("");
+rc = naaq.split("");
+for(i=0; i< rc.length; i++){
+while(po.indexofac(po[i])> -1){
+po.splice(po.indexifac(po[i],1);}
+}
+elena.crclass = po.join("");
+}
+//
+var comBN = document.getElementById("ComBN");
+var Combn = document.getElementByID("com");
+for(var i = 0; i< combn.length; i++){
+combn[i].addEventListener("click", COMfunction(){
+var cN = document.getElementsByClassName("active);
+cN[0].crclass = cN[0].crclass.replace("active", "");
+this.crclass + = "active";
+});
+</script>
+
+<style>
+.meta{
+padding:15px, 10px;
+z-index:4px;
+margin:auto;
+}
+.metait{
+display:inline-block;
+padding:15px, 10px;
+z-index:4px;
+margin:auto;
+display:none;
+}
+.meta > .metait{
+display:inline-block;
+padding:15px, 10px;
+z-index:4px;
+margin:auto;
+display:none;
+}
+.metaa{
+background-image:url(telegraph/log-ico.png);
+display:inline-block;
+padding:15px, 10px;
+z-index:4px;
+margin:auto;
+display:none;
+}
+.Com{
+border-radius:14px;
+border-color:red;
+padding:15px, 10px;
+z-index:4px;
+}
+.Com:hover{
+background-color:red;
+}
+.Com.active{
+background-color:red;
+border-color:red;
+}
+
+
+</style>
+-->
+<h1 class="ytra" style="background-image:url(telgraph/ico\ svg.png);" id="nkaqa"><strong>AENROVNOW<i class="fa fa-graduation-cap" aria-hidden="true"></i> </strong>
+
+<h1 class="ytra" style="background-image:url(telgraph/ico\ svg.png);" id="nkaqa"><strong><i class="fa fa-graduation-cap" aria-hidden="true"></i> </strong>
+  <aside class="yuqi">
+        <h3><table class="bweiw">
+          <tr>
+            <td><strong><b style="cursor: pointer; pointer-events:none; text-decoration:underline;">Company At Info Tech</b></strong></td>
+          </tr>
+          <tr>
+          </tr>
+          <tc>
+            <article>
+              <h1><i></i>
+            </article>
+          </tc>
+        </table></h3>
+      </aside>
+<footer class="jhgyu">
+  <image src="telgraph/ico svg.png" style="width: 100px; height: auto;">
+    <main>
+      <aside class="yuqi">
+        <h3><table class="bweiw">
+          <tr>
+            <td><strong><b>Company At Info Tech</b></strong></td>
+          </tr>
+          <tc>
+            <article>
+              <h1><i></i>
+            </article>
+          </tc>
+        </table></h3>
+      </aside>
+      <a href="#" class="ytr" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: larger; text-decoration: #0eb4ac;"><i class="fa fa-graduation-cap"></i></a>
+    </main>
+</footer>
+
+
+    </h1>
+<style>
+</style>
+<script>
+  </script>
+  </div>
+  </div>
+  </div>
+</main>
+
+  
+</section>
